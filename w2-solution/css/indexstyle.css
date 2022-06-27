@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  position: relative;
+  display: block;
+}
+
+h1 {
+  font-size: 175%;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 70px;
+  font-family: cursive;
+}
+
+section {
+  margin-bottom: 15px;
+  /*border: 1px solid orange;*/
+  align-self: center;
+}
+
+section div {
+  align-self: center;
+  height: 500px;
+  /*overflow: auto;*/
+  border: 1px solid black;
+  margin: 10px;
+  background-color: linen; /* snow, linen, ghostwhite, lavenderblush, blanchedalmond */
+}
+
+.content_region {
+  display: block;
+  clear: both;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: justify;
+  /*border: 1pt solid blue;*/
+}
+
+.title_region {
+  display: block;
+  font-size: 125%;
+  float: right;
+  width: 40%;
+  padding: 10px;
+  margin: auto;
+  margin-bottom: 15px;
+  border: 1px solid black;
+  font-family: cursive;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+
+li {
+  list-style-position: inside;
+  margin-bottom: 6px;
+  clear: both;
+
+}
+
+#Chicken {
+  background-color:indianred; /* indianred */
+}
+
+#Beef {
+  background-color: chocolate;
+}
+
+#Vegetable {
+  background-color: olive;  /* peru, sienna, saddlebrown */
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .col_md_6 {
+    float: left;
+    width: 50%;
+  }
+
+}
+
+@media (min-width: 992px) {
+  .col_lg_4{
+    float: left;
+    width: 33.333%;
+  }
+
+}

@@ -1,0 +1,82 @@
+div.test {
+  border-color: black;
+  border: 3px solid orange;
+}
+#sec_2 {
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+
+p.sq {
+  width: 30px;
+  height: 30px;
+  border: 1px dashed lightgrey;
+  float: left;
+  clear: none;
+}
+#click1 {
+  background-color: red;
+}
+#click2 {
+  background-color: lightpink;
+}
+#click3 {
+  background-color: orange;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: black;
+  font-style: normal;
+}
+a:hover, a:active {
+  color: orange;
+  font-weight: bold;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* section.buttons div { */
+div.col_md_2t2, div.col_sm_1t4{
+  width: 25%;
+  float: left;
+  margin-bottom: 20px;
+}
+
+/* section.buttons a { */
+div a{
+  display: block;
+  width: 98%;
+  border: 3px solid orange;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  text-align: center;
+  background-color: lightyellow;
+}
+
+/*
+section.buttons div:nth-child(even) {
+  background-color: lightyellow;
+}
+*/
+
+div.test, p {
+  clear: left;
+}
+
+@media (min-width: 500px) and (max-width:999px) {
+  div.col_md_2t2 {
+    float: left;
+    width: 50%;
+  }
+}
+@media (max-width: 499px) {
+  div.col_sm_1t4{
+    float: left;
+    width: 100%;
+  }
+}
