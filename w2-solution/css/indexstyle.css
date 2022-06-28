@@ -16,9 +16,10 @@ h1 {
 }
 
 section {
-  margin-bottom: 15px;
   /*border: 1px solid orange;*/
   align-self: center;
+  float: left;
+  width: 33.333%
 }
 
 section div {
@@ -26,7 +27,7 @@ section div {
   height: 500px;
   /*overflow: auto;*/
   border: 1px solid black;
-  margin: 10px;
+  margin: 15px;
   background-color: linen; /* snow, linen, ghostwhite, lavenderblush, blanchedalmond */
 }
 
@@ -73,24 +74,23 @@ li {
   background-color: olive;  /* peru, sienna, saddlebrown */
 }
 
+
 @media (min-width: 768px) and (max-width: 991px) {
 
   .col_md_6 {
-    float: left;
     width: 50%;
   }
+
   .col_md_12 {
-    float: left;
     width: 100%;
   }
 
 }
 
-@media (min-width: 992px) {
+@media (max-width: 767px) {
 
   .col_lg_4{
-    float: left;
-    width: 33.333%;
+    width: 100%;
   }
 
 }
